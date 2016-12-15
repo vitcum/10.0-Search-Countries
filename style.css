@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+	font-family: 'Amatic SC', cursive;
+	margin: 0;
+	background-image: url(http://free.wallpaperbackgrounds.com/earth/map/210895-25384.jpg);
+	background: cover;
+	background-position: center;
+	background-size: 100% auto;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.main {
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 200px;
+}
+
+.btn {
+	margin: 20px;
+	background-color: Transparent;
+	border-color: #bc941a;
+	font-size: 25px;
+}
+
+.btn:hover {
+	background-color: Transparent;
+	border-color: #bc941a;
+}
+
+input {
+	width: 300px;
+	opacity: 0.8;
+}
+
+h1 {
+	color: white;
+	letter-spacing: 3px;
+	font-weight: bolder;
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 30px;
+	color: #ceccc6;
+}
+
+li {
+	font-size: 25px;
+	color: #f2c643;
+}
