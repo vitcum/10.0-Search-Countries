@@ -42,6 +42,23 @@ body {
     color: #fff;
     background-color: transparent;
     border-color: #bc941a;
+    outline: none;
+}
+
+.btn-success:visited {
+    color: #fff;
+    background-color: transparent;
+    border-color: #bc941a;
+}
+
+.btn-success:active { 
+	background-color: transparent;
+	border-color: #bc941a ;
+}
+
+.btn-success:active:hover {  
+	background-color: transparent;
+	border-color: #bc941a ;  
 }
 
 input {
