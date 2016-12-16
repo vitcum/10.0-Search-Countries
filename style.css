@@ -28,14 +28,20 @@ body {
 
 .btn {
 	margin: 20px;
-	background-color: Transparent;
+	background-color: transparent;
 	border-color: #bc941a;
 	font-size: 25px;
 }
 
 .btn:hover {
-	background-color: Transparent;
+	background-color: transparent;
 	border-color: #bc941a;
+}
+
+.btn-success:focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: #bc941a;
 }
 
 input {
